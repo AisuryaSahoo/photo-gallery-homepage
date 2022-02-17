@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Island+Moments&family=Oxygen:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Festive&family=Montserrat:wght@200&family=Roboto:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --main-bg-color: black;
+}
+header {
+  padding: 10px 5px;
+  display: flex;
+  background-color: black;
+  height: 70px;
+  /* justify-content: center; */
+  border-bottom: 1px solid #8080805c;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+nav span {
+  margin-left: 5vw;
+  font-family: "Festive", cursive;
+  color: rgb(240, 156, 29);
+  font-size: 30px;
+  margin-right: 40px;
+}
+.nav-logo {
+  padding: 0 30px;
+}
+nav img {
+  width: 122px;
+}
+header nav ul {
+  margin-left: 10px;
+  display: flex;
+  height: 73px;
+  align-items: center;
+}
+header nav ul li {
+  list-style: none;
+  margin: 0 25px;
+}
+header nav ul li a {
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+header nav ul li a:hover {
+  font-weight: bolder;
+  color: rgb(241, 170, 63);
+  
+}
+.search {
+  display: flex;
+  border: 1px black solid;
+  padding: 3px;
+  box-shadow: rgba(0, 0, 0, 0.514) 7px 5px 5px 2px;
+}
+.search-box {
+  display: flex;
+  background-color: white;
+  height: 40px;
+  align-items: center;
+  border-radius: 2px;
+  padding: 0 5px;
+}
+.search input {
+  width: 40vw;
+  border-style: none;
+  height: 23px;
+  display: flex;
+  padding: 0 10px;
+  /* border-color: none; */
+  outline: none;
+}
+.search img {
+  display: flex;
+  height: 23px;
+  width: 23px;
+  margin: 0 5px;
+}
+.nav-line {
+  height: 0.1px;
+  background-color: rgb(243, 130, 24);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+  height: 70vh;
+  width: 100%vw;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/pg1.jpg) no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container-details {
+  /* padding: 5px; */
+  display: flex;
+  line-height: 30px;
+  font-size: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 2s;
+}
+.container-details:hover{
+  transform: scale(1.2);
+  color: rgb(255, 208, 0);
+}
+.container-details h2 {
+  font-size: 38px;
+}
+.container .search {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  z-index: 2;
+}
+
+.search-banner {
+  height: 30px;
+  border-radius: 10px;
+  background-color: rgb(235, 160, 63);
+  padding: 10px 5px;
+}
+.search-banner input {
+  background-color: rgb(235, 160, 63);
+}
+
+.img-container {
+  display: flex;
+  margin: auto;
+  padding: 30px 0px 10px 0px;
+  flex-direction: column;
+  width: 80%;
+}
+.container-line{
+  border: .5px solid rgba(255, 166, 0, 0.527);
+}
+.img-row-conainer {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+}
+.img-row-container h1 {
+  color: grey;
+  letter-spacing: 1.5px;
+  font-size: 18px;
+}
+
+.img-row {
+  margin-top: 30px;
+
+  display: flex;
+  justify-content: center;
+}
+.img-item {
+  margin: 10px 30px;
+}
+.img-item img {
+  height: 400px;
+  width: 18vw;
+  transition: ease-in-out 0.8s;
+  box-shadow: rgba(0, 0, 0, 0.514) 7px 5px 5px 2px;
+
+}
+.img-item img:hover {
+  transform: scale(1.2);
+}
+.img-row-grid img {
+  height: 400px;
+  width: 100%;
+  transition: ease-in-out 0.8s;
+  box-shadow: rgba(0, 0, 0, 0.514) 7px 5px 5px 2px;
+
+}
+.img-row-grid img:hover {
+  transform: scale(1.15);
+}
+.img-row-grid {
+  margin-top: 30px;
+  padding: 10px 0px;
+  width: 80vw;
+  display: grid;
+  column-gap: 2vw;
+  grid-template-columns: 40vw 17vw 17vw;
+  grid-template-rows: auto;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* align-self:auto; */
+  height: 70px;
+  margin: 20px;
+  background-color: var(--main-bg-color);
+  color: rgb(247, 186, 74);
+  font-family: "Oxygen", sans-serif;
+}

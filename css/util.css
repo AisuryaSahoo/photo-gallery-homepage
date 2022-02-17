@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Island+Moments&family=Oxygen:wght@300&display=swap');
+
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    height: 30px;
+    width: 70px;
+    background-color: transparent;
+    margin-left: 20px;
+    padding: 0 10px 0 10px;
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+    cursor:pointer;
+    border-width: 4px;
+}
+h1{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.2vw;
+    padding: 12px 0px;
+    margin-left: 3vw;
+    color: rgba(56, 55, 55, 0.801);
+    
+
+}
+.p-1{
+    font-family: cursive;
+    font-size: 14px;
+}
+.p-2{
+    font-family:fantasy;
+    color: rgba(49, 50, 53, 0.603);
+    font-size: 14px;
+}
+.p-3{
+    font-family: cursive;
+    color: rgb(95, 42, 42);
+    font-size: 15px;
+    
+}
